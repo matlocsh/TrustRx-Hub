@@ -1,0 +1,109 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+img {
+  display: inline-block;
+}
+
+.important {
+  font-weight: bold;
+  background-color: lightpink ;
+}
+
+.another-heading {
+  color: coral;
+}
+
+#special {
+  color: indigo;
+  font-style: italic;
+}
+
+#interesting {
+  font-style: stoke;
+  color: royalblue, cornflowerblue;
+}
+
+.news-link {
+  text-decoration: none;
+  color: #ffe5ec;
+}
+
+.news-link:hover {
+  font-style: italic;
+  color: #ff006e;
+  text-decoration: underline;
+}
+
+article {
+  border: 1px solid #ffe5ec;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+h3 {
+  font-size: 18px;
+  margin: 0;
+}
+
+p {
+  font-size: 15px;
+  margin: 10px 0;
+  font-family: 'Cambria', serif;
+}
+
+body {
+  background-image: url('images/Background.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: repeat;
+  padding: 10px;
+}
+
+@font-face {
+  font-family: 'Stolen Love';
+  src: url('fonts/Stolen-Love-Black.woff') format('woff'),
+  url('fonts/Stolen-Love-Bold.woff') format('woff'),
+  url('fonts/Stolen-Love-Light.woff') format('woff'),
+  url('fonts/Stolen-Love-Rough.woff') format('woff'),
+  url('fonts/Stolen-Love-Swash-Small.woff') format('woff'),
+  url('fonts/Stolen-Love-Black-BGR-Support.woff') format('woff');
+}
+
+/* Apply the font to specific elements */
+h1 {
+  font-family: 'Stolen Love', 'Montserrat', serif;
+  color: #ffe5ec;
+   font-size: 48px;
+    }
+
+.button1 {
+  touch-action: manipulation;
+  border: 0;
+  border-radius: 12px;
+  padding: 6px 12px;/* 8 x 16 */
+  background-color: #ff006e; /* #5371f4-purple*/
+  background-image: url("https://csspro.com/css-3d-buttons/buttons-img/terrazzo-blue.png");
+  background-size: 60px;
+  background-position: -2px;
+  box-shadow: inset 0 2px 2px rgba(255, 255, 255, 0.4), inset 0 -2px 1px rgba(0, 0, 0, 0.1), 0 1px 2px rgba(0, 0, 0, 0.2), 0 2px 4px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  font-family: 'Stolen Love', 'Montserrat', serif;
+  font-weight: 570;
+  font-size: 17px;
+  color: #ffe5ec;
+  text-shadow: 0 1px rgba(0, 0, 0, 0.2);
+  transition-property: transform;
+  transition-duration: 0.3s;
+}
+
+.button1:active {
+  transform: scale(0.96);
+}
+.button1:hover {
+  font-style: italic;
+  color: #ffe5ec;
+  transform: translateY(-5px);
+}
